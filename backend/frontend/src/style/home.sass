@@ -1,0 +1,222 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display')
+.card
+	width: 54px
+	height: 36px
+	background: url('../images/DT-standart-icon.svg') no-repeat
+	background-size: 100%
+body
+	margin: 0
+	.home-wrapper
+		display: flex
+		flex-direction: column
+		width: 100%
+		height: 100vh
+		align-items: center
+		justify-content: center
+		background-color: #F4F6F8
+		// *
+		// 	border: 1px solid red
+		.home-content-wrapper
+			width: 90vw
+			height: 100%
+			h1
+				letter-spacing: 0.025em
+				font-weight: 700
+				color: #29313A
+				font-family: 'SF Pro Display', sans-serif
+				font-size: 3.2vh
+			.cart-wrapper
+				height: 30%
+				border-radius: 10px
+				width: 100%
+				background-color: white
+				display: flex
+				flex-direction: column
+				.number
+					display: flex
+					flex-direction: row
+					align-items: center
+					width: 90%
+					height: 50px
+					padding-top: 2vh
+					margin-left: 6vw
+					.cart-image
+						width: 75px
+						height: 50px
+						background: url('../images/myWalletEmpty.svg') no-repeat
+						background-size: 100%
+					span
+						margin-left: 3vw
+						color: #67707C
+						font-family: 'SF Pro Display', sans-serif
+						font-weight: 500
+						letter-spacing: 1.1px
+						font-size: 2.2vh
+				.available-money
+					margin-left: 6vw
+					width: 90%
+					height: 55%
+					display: flex
+					flex-direction: column
+					.available
+						font-family: 'SF Pro Display', sans-serif
+						font-weight: 400
+						letter-spacing: 1.2px
+						font-size: 2vh
+						color: #848D98
+						margin-top: 3vh
+					.total-money
+						color: black
+						font-size: 4vh
+						font-family: 'SF Pro Display', sans-serif
+						margin-top: 0.4vh
+						font-weight: 600
+						span
+							font-size: 3.4vh
+							color: #A3ABB6
+				.buttons
+					width: 100%
+					display: flex
+					flex-direction: row
+					align-items: center
+					justify-content: space-around
+					margin-top: 5vh
+					.transactions-button
+						border: none
+						background-color: #DBDEE4
+						color: #545D68
+						font-family: 'SF Pro Display', sans-serif
+						width: 33%
+						height: 4.5vh
+						border-radius: 16px
+						font-size: 1.8vh
+						font-weight: 600
+					.action-button
+						border: none
+						background-color: #F4F6F8
+						color: #67707C
+						font-family: 'SF Pro Display', sans-serif
+						width: 33%
+						height: 4.5vh
+						border-radius: 16px
+						font-size: 1.8vh
+						font-weight: 400
+				.transactions-wrapper
+					margin-top: 40vh
+					width: 90%
+					height: 50vh
+					display: flex
+					align-items: center
+					justify-content: center
+					position: fixed
+					flex-direction: column
+					.card-clock
+						background: url('../images/fluent_credit-card-clock-24-filled.svg') no-repeat
+						background-size: 100%
+						width: 60px
+						height: 60px
+					.card-clock-first-text
+						margin-top: 1vh
+						color: #111111
+						font-family: 'SF Pro Display', sans-serif
+						font-size: 2.2vh
+						font-weight: 600
+					.card-clock-second-text
+						margin-top: 0.5vh
+						font-size: 1.6vh
+						font-weight: 400
+						font-family: 'SF Pro Display', sans-serif
+						color: #A3ABB6
+						letter-spacing: 1.1px
+				.actions-wrapper
+					visibility: hidden
+					margin-top: 40vh
+					width: 90%
+					height: 50vh
+					display: flex
+					align-items: center
+					position: fixed
+					flex-direction: column
+				.action-buttons-wrapper
+					width: 100%
+					height: 24vh
+					border-radius: 10px
+					background-color: white
+					display: flex
+					flex-direction: column
+					.line
+						border-bottom: 0.1px solid #E8EBEF
+						width: 88%
+						margin-left: 6%
+					.action-item
+						width: 100%
+						height: 8vh
+						display: flex
+						align-items: center
+						flex-direction: row
+						.qr-image
+							margin-left: 4vw
+							margin-right: 4vw
+							width: 33px
+							height: 33px
+							background: url('../images/qr_code_24px.svg') no-repeat
+							background-size: 100%
+						.transfer-image
+							margin-left: 4vw
+							margin-right: 4vw
+							width: 33px
+							height: 33px
+							background: url('../images/transfer.svg') no-repeat
+							background-size: 100%
+						.offline-image
+							margin-left: 4vw
+							margin-right: 4vw
+							width: 33px
+							height: 33px
+							background: url('../images/offline-trans.svg') no-repeat
+							background-size: 100%
+						.action-arrow
+							margin-left: auto
+							margin-right: 4vw
+							width: 20px
+							height: 20px
+							background: url('../images/chevron_right.svg') no-repeat
+							background-size: 100%
+						.offline-arrow
+							margin-left: auto
+							margin-right: 4vw
+							width: 11px
+							height: 22px
+							color: #ebebeb
+							background: url('../images/white_right.svg') no-repeat
+							background-size: 100%
+						.offline-first-text
+							display: flex
+							flex-direction: column
+							font-family: 'SF Pro Display', sans-serif
+							color: #ebebeb
+							font-weight: 600
+							font-size: 2vh
+							letter-spacing: 1.1px
+							.offline-second-text
+								margin-top: 0.5vh
+								font-family: 'SF Pro Display', sans-serif
+								color: #ebebeb
+								font-weight: 400
+								font-size: 1.4vh
+								letter-spacing: 1.1px
+						.action-first-text
+							display: flex
+							flex-direction: column
+							font-family: 'SF Pro Display', sans-serif
+							color: #29313A
+							font-weight: 600
+							font-size: 2vh
+							letter-spacing: 1.1px
+							.action-second-text
+								margin-top: 0.5vh
+								font-family: 'SF Pro Display', sans-serif
+								color: #848D98
+								font-weight: 400
+								font-size: 1.4vh
+								letter-spacing: 1.1px

@@ -1,0 +1,24 @@
+<div class="h-screen bg-[#F4F6F8]">
+  <div class="p-4">
+    <!-- Nav -->
+    <div class="mb-5">
+      <a href="#">
+        <i class="far fa-long-arrow-left text-2xl"></i>
+      </a>
+    </div>
+    <!-- Input -->
+    <div class="mb-8">
+      <div class="mb-3 text-2xl font-bold">Код подтверждения</div>
+      <div class="mb-3 text-base text-gray-400">На номер +7 708 537 33 59 отправлен SMS-код. Введите его:</div>
+      <div class="flex justify-evenly">
+        <input type="text" placeholder="0" class="h-14 w-14 rounded-lg border-none pl-[18px] text-3xl outline-none focus:border-transparent focus:outline-none" maxlength="1" />
+        <input type="text" placeholder="0" class="h-14 w-14 rounded-lg border-none pl-[18px] text-3xl outline-none focus:border-transparent focus:outline-none" maxlength="1" />
+        <input type="text" placeholder="0" class="h-14 w-14 rounded-lg border-none pl-[18px] text-3xl outline-none focus:border-transparent focus:outline-none" maxlength="1" />
+        <input type="text" placeholder="0" class="h-14 w-14 rounded-lg border-none pl-[18px] text-3xl outline-none focus:border-transparent focus:outline-none" maxlength="1" />
+      </div>
+    </div>
+    <div class="mb-5 text-center text-sm text-gray-400">Отправить код повторно через <span class="font-semibold text-blue-600">0:54</span></div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />

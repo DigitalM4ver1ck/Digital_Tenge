@@ -1,0 +1,30 @@
+<div class="h-screen bg-[#F4F6F8]">
+  <div class="p-4">
+    <!-- Nav -->
+    <div class="mb-5">
+      <a href="#">
+        <i class="far fa-long-arrow-left text-2xl"></i>
+      </a>
+    </div>
+    <!-- Input -->
+    <div class="mb-6">
+      <div class="mb-3 text-2xl font-bold">По номеру телефона</div>
+      <label for="UserEmail" class="relative block overflow-hidden rounded-md bg-white px-3 pt-3">
+        <input type="email" id="UserEmail" placeholder="Введите номер телефона, счета, карты, имя, фамилия" class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent outline-none focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
+        <span class="absolute left-3 top-2 -translate-y-1/2 text-xs text-gray-400 transition-all line-clamp-1 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs">Введите номер телефона, счета, карты, имя, фамилия</span>
+      </label>
+    </div>
+    <div>
+      <div class="mb-5 text-sm font-medium text-gray-500">Рание переводы:</div>
+      <div class="flex items-center">
+        <div class="mr-3 flex h-[32px] w-[32px] items-center justify-center rounded-full bg-[#51819C] text-white">A</div>
+        <div>
+          <div class="text-sm font-semibold">Алена</div>
+          <div class="mb-1 text-xs text-gray-400">+7 707 537 33 59</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />

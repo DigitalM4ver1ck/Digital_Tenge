@@ -1,0 +1,187 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display')
+.inputPhone
+    font-family: SF Pro Text
+    .base-input
+        display: flex
+        justify-content: space-between
+        position: relative
+        z-index: 100
+        padding: 11px 18px 14px
+        border-radius: 10px
+        width: 100%
+        background-color: white
+        height: 62px
+        box-sizing: border-box
+        &__discription
+            font-size: 12px
+            font-weight: 400
+        &__input
+            height: 100% !important
+            font-size: 14px
+            font-weight: 500
+            &:focus
+                outline: none
+        &__close
+            width: 24px
+            height: 24px
+            margin-top: auto
+            margin-bottom: auto
+    .animation
+        position: relative
+        z-index: 10
+        margin-top: -10px
+        display: block
+        overflow: hidden
+        animation: getDown 1s forwards 
+        .receiver
+            display: flex
+            flex-flow: column
+            background-color: #7947CC
+            color: white
+            padding: 12px 0 16px 16px
+            box-shadow: 0px 0px 24px rgba(128, 129, 130, 0.03)
+            border-radius: 0px 0px 10px 10px
+            &__title
+                margin-top: 4px
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                color: #C1C1C1
+            &__name
+                font-style: normal
+                font-weight: 400
+                font-size: 16px
+    .choose-bank
+        display: flex
+        background: #FFFFFF
+        box-shadow: 0px 0px 24px rgba(128, 129, 130, 0.03)
+        border-radius: 10px
+        margin-top: 16px
+        padding: 26px 20px 26px 16px
+        display: flex
+        align-items: center
+        .eurasian-image
+            background: url('../../images/mini_cards_Eurasian_cards.svg') no-repeat
+            width: 54px
+            height: 48px
+            margin-right: 5px
+        .choise 
+            font-weight: 400
+            font-size: 16px
+            margin: 0
+        img
+            position: absolute
+            right: 40px
+    .earlier
+        display: flex
+        flex-flow: column
+        margin-top: 34px
+        .earlier-title
+            color: #67707C
+            font-family: 'SF Pro Text'
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+        .card-sdadad
+            display: flex
+            flex-flow: row
+            align-items: center
+            margin-top: 20px
+            padding-bottom: 15px 
+            .icon
+                border-radius: 100%
+                background-color: #616EA5
+                width: 30px
+                height: 30px
+                color: white
+                text-align: center
+                line-height: 27px
+            .content
+                display: flex
+                flex-flow: column
+                margin-left: 10px
+                gap: 4px
+                .name
+                    font-family: 'SF Pro Display'
+                    font-style: normal
+                    font-weight: 600
+                    font-size: 16px
+                    color: #333B47
+                .phone
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 14px
+                    color: #67707C
+    .banks
+        visibility: hidden
+        position: fixed
+        top: 0%
+        left: 0%
+        z-index: 1000
+        .banks-wrapper
+            width: 100vw
+            height: 100vh
+            background-color: white 
+            display: flex
+            align-items: center
+            justify-content: center
+            .content-wrapper
+                width: 90%
+                height: 94%
+                display: flex
+                flex-direction: column
+                .banks__header
+                    display: flex
+                    flex-direction: row-reverse
+                h1
+                    font-family: 'SF Pro Display', sans-serif
+                    font-weight: 700
+                    font-size: 26px
+                    margin-top: 30px
+                h3
+                    font-family: 'SF Pro Display', sans-serif
+                    font-weight: 600
+                    font-size: 18px
+                    margin-top: 30px
+                .banks-item-wrapper
+                    margin-top: 15px
+                    width: 100%
+                    height: 70%    
+                    .bank-item
+                        margin-top: 16px
+                        width: 100%
+                        height: 80px
+                        border-radius: 10px
+                        background-color: #F4F6F8
+                        display: flex
+                        align-items: center
+                        .eurasian-image
+                            background: url('../../images/mini_cards_Eurasian_cards.svg') no-repeat
+                            width: 54px
+                            height: 48px
+                            margin-left: 25px
+                        .bcc-image
+                            background: url('../../images/mini_cards_Halyk_cards.svg') no-repeat
+                            width: 54px
+                            height: 48px
+                            margin-left: 25px
+                        .btc-image
+                            background: url('../../images/mini_cards_BTS.svg') no-repeat
+                            width: 54px
+                            height: 48px
+                            margin-left: 25px
+                        .senim-image
+                            background: url('../../images/mini_cards_Senim.svg') no-repeat
+                            width: 54px
+                            height: 48px
+                            margin-left: 25px
+                        .bank-title
+                            font-family: 'SF Pro Display', sans-serif
+                            font-weight: 400
+                            font-size: 16px
+                            margin-left: 20px
+@keyframes getDown 
+    from
+        height: 0
+    to
+        height: 76px

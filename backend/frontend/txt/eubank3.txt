@@ -1,0 +1,43 @@
+<div class="h-screen bg-[#F4F6F8]">
+  <div class="bg-[#333B47] p-4">
+    <!-- Nav -->
+    <div>
+      <a href="#" class="mb-5 flex gap-5">
+        <i class="far fa-long-arrow-left text-2xl text-white"></i>
+        <div class="text-base font-semibold text-white">Куда</div>
+      </a>
+      <div class="flex items-center">
+        <div class="mr-3 flex h-[32px] w-[32px] items-center justify-center rounded-full bg-[#51819C] text-white">A</div>
+        <div>
+          <div class="text-sm font-semibold text-white">Алена</div>
+          <div class="text-xs text-gray-400">+7 707 537 33 59</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col justify-between p-4">
+    <!-- Input -->
+    <div class="mb-6">
+      <div class="grid grid-cols-4 gap-2">
+        <div class="col-span-1 flex flex-col items-center rounded-xl bg-white p-[14px]">
+          <div class="mb-3 text-xs font-semibold">Откуда</div>
+          <div class="mb-3 h-9 w-14 rounded-md bg-fuchsia-800"></div>
+          <i class="far fa-chevron-down"></i>
+        </div>
+        <div class="col-span-3 flex flex-col items-start rounded-xl bg-white p-[14px]">
+          <div class="mb-3 text-xs">Баланс 20 000 ₸</div>
+          <input type="text" value="0 ₸" class="mb-3 h-8 w-full border-none bg-transparent p-0 text-4xl outline-none focus:border-transparent focus:outline-none sm:text-sm" />
+          <div class="text-xs text-gray-400">Комиссия <span class="font-semibold">0</span> ₸</div>
+        </div>
+        <label for="UserEmail" class="relative col-span-4 mb-3 block overflow-hidden rounded-md bg-white px-3 pt-3">
+          <input type="email" id="UserEmail" placeholder="Напишите сообщение" class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent outline-none focus:border-transparent focus:placeholder-gray-300 focus:outline-none focus:ring-0 sm:text-sm" />
+          <span class="absolute left-3 top-2 -translate-y-1/2 text-xs text-gray-400 transition-all line-clamp-1 peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs">Сообщение получателю</span>
+        </label>
+      </div>
+      <div class="text-sm text-gray-500">Транзакция будет скрыта</div>
+    </div>
+    <button type="button" class="mr-2 mb-2 w-full rounded-lg bg-[#29313A] px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Перевести 200 ₸</button>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
